@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculadora</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main class="main">
+            <h1>calculadora JS</h1>
+                <div class="son">
+                    <span>
+                    <input type="text" id="text" class="campo" placeholder="0" >
+                    </span>
+                    <div class="db">
+                        <input class="stb" type="button" value="1" onclick="logica('valor', 1)">
+                        <input class="stb" type="button" value="2 "onclick="logica('valor', 2)">
+                        <input class="stb" type="button" value="3" onclick="logica('valor', 3)">
+                        <input class="stb" type="button" value="+" onclick="logica('acao', '+')">
+                    </div>
+                    <div class="db">
+                        <input class="stb" type="button" value="4" onclick="logica('valor', 4)">
+                        <input class="stb" type="button" value="5" onclick="logica('valor', 5)">
+                        <input class="stb" type="button" value="6" onclick="logica('valor', 6)">
+                        <input class="stb" type="button" value="-" onclick="logica('acao', '-')">
+                    </div>
+                    <div class="db">
+                        <input class="stb" type="button" value="7" onclick="logica('valor', 7)">
+                        <input class="stb" type="button" value="8" onclick="logica('valor', 8)">
+                        <input class="stb" type="button" value="9" onclick="logica('valor', 9)">
+                        <input class="stb" type="button" value="*" onclick="logica('acao', '*')">
+                    </div>
+                    <div>
+                        <input class="stb" type="button" value="c" onclick="logica('acao', 'c')">
+                        <input class="stb" type="button" value="0" onclick="logica('valor', 0)">
+                        <input class="stb" type="button" value="=" onclick="logica('acao', '=')">
+                        <input class="stb" type="button" value="/" onclick="logica('acao', '/')">
+                    </div>
+                </div>
+        </main>
+
+        <script src="index.js"></script>
+    </body>
+</html>
