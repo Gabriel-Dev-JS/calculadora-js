@@ -1,5 +1,3 @@
-console.log("hello world!")
-
 function logica(tipo, valor){
    if(tipo == 'valor'){
     document.getElementById('text').value += valor

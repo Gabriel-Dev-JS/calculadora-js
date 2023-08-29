@@ -38,6 +38,7 @@ html{
 .stb:hover{
     background-color: rgb(117, 123, 123);
     border-radius: 8px;
+    border-color: white;
 }
 ::placeholder{
     color:black;
